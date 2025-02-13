@@ -16,13 +16,13 @@ export default function App() {
         <Route index element={<HomePage />} />
         <Route path="wedding" element={<WeddingPage />} />
         <Route path="login" element={<LoginPage />} />
+        <Route path="mng" element={<AuthLayout />}>
+          <Route index element={<Navigate to={paths.mng.timeline} />} />
+          <Route path="timeline" element={<TimeLineMngPage />} />
+          <Route path="wedding" element={<WeddingMngPage />} />
+        </Route>
+        <Route path="*" element={<NotFoundPage />} />
       </Route>
-      <Route path="mng" element={<AuthLayout />}>
-        <Route index element={<Navigate to={paths.mng.timeline} />} />
-        <Route path="timeline" element={<TimeLineMngPage />} />
-        <Route path="wedding" element={<WeddingMngPage />} />
-      </Route>
-      <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );
 }
