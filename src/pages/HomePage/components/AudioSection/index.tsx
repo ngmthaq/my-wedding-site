@@ -66,9 +66,9 @@ export default function AudioSection() {
       <audio
         ref={audio}
         src="/anh-muon-minh-nhu-con-thuyen-kia.mp4"
-        autoPlay
         controls
         hidden
+        loop
       />
     </Fragment>
   );

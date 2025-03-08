@@ -25,147 +25,75 @@ export default function ThirdSection() {
 
 const itemData = [
   {
-    img: "/bglobal-1.jpeg",
-    title: "Ảnh đầu tiên khi làm cùng công ty",
+    img: "/anh-cuoi/0 (1).jpg",
+    title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/ha-noi-2.jpeg",
-    title: "Hà Nội nè",
+    img: "/anh-cuoi/0 (3).jpg",
+    title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/ha-noi-3.jpeg",
-    title: "Hà Nội nè",
+    img: "/anh-cuoi/0 (4).jpg",
+    title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/ha-noi-4.jpeg",
-    title: "Hà Nội nè",
+    img: "/anh-cuoi/0 (5).jpg",
+    title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/ha-noi-5.jpeg",
-    title: "Hà Nội nè",
+    img: "/anh-cuoi/0 (6).jpg",
+    title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/ha-noi-6.jpeg",
-    title: "Hà Nội nè",
+    img: "/anh-cuoi/0 (7).jpg",
+    title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/ha-noi-7.jpeg",
-    title: "Hà Nội nè",
+    img: "/anh-cuoi/0 (8).jpg",
+    title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/ha-noi-8.jpeg",
-    title: "Hà Nội nè",
+    img: "/anh-cuoi/2 (1).jpg",
+    title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/ha-noi-9.jpeg",
-    title: "Hà Nội nè",
+    img: "/anh-cuoi/2 (2).jpg",
+    title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/ha-noi-10.jpeg",
-    title: "Hà Nội nè",
+    img: "/anh-cuoi/2 (3).jpg",
+    title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/ha-noi-11.jpeg",
-    title: "Hà Nội nè",
+    img: "/anh-cuoi/2 (4).jpg",
+    title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/ha-noi-12.jpeg",
-    title: "Hà Nội nè",
+    img: "/anh-cuoi/5 (1).jpg",
+    title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/ha-noi-13.jpeg",
-    title: "Hà Nội nè",
+    img: "/anh-cuoi/5 (2).jpg",
+    title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/ha-noi-14.jpeg",
-    title: "Hà Nội nè",
+    img: "/anh-cuoi/5 (3).jpg",
+    title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/nam-dinh-1.jpeg",
-    title: "Nam Định nè",
+    img: "/anh-cuoi/5.jpg",
+    title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/da-nang-1.jpeg",
-    title: "Du lịch Đà Nẵng",
+    img: "/anh-cuoi/6.jpg",
+    title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/da-nang-2.jpeg",
-    title: "Du lịch Đà Nẵng",
+    img: "/anh-cuoi/8.jpg",
+    title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/da-nang-3.jpeg",
-    title: "Du lịch Đà Nẵng",
-  },
-  {
-    img: "/da-nang-4.jpeg",
-    title: "Du lịch Đà Nẵng",
-  },
-  {
-    img: "/ha-long-1.jpeg",
-    title: "Du lịch Hạ Long",
-  },
-  {
-    img: "/ha-long-2.jpeg",
-    title: "Du lịch Hạ Long",
-  },
-  {
-    img: "/ha-long-3.jpeg",
-    title: "Du lịch Hạ Long",
-  },
-  {
-    img: "/ha-long-4.jpeg",
-    title: "Du lịch Hạ Long",
-  },
-  {
-    img: "/thailand-1.jpeg",
-    title: "Du lịch Thái Lan nè",
-  },
-  {
-    img: "/thailand-2.jpeg",
-    title: "Du lịch Thái Lan nè",
-  },
-  {
-    img: "/thailand-3.jpeg",
-    title: "Du lịch Thái Lan nè",
-  },
-  //   {
-  //     img: "/thailand-4.jpeg",
-  //     title: "Du lịch Thái Lan nè",
-  //   },
-  {
-    img: "/thailand-5.jpeg",
-    title: "Du lịch Thái Lan nè",
-  },
-  {
-    img: "/thailand-6.jpeg",
-    title: "Du lịch Thái Lan nè",
-  },
-  {
-    img: "/thailand-7.jpeg",
-    title: "Du lịch Thái Lan nè",
-  },
-  {
-    img: "/thailand-8.jpeg",
-    title: "Du lịch Thái Lan nè",
-  },
-  {
-    img: "/thailand-9.jpeg",
-    title: "Du lịch Thái Lan nè",
-  },
-  {
-    img: "/thailand-10.jpeg",
-    title: "Du lịch Thái Lan nè",
-  },
-  {
-    img: "/cuoi-4.jpeg",
-    title: "Cưới thui",
-  },
-  {
-    img: "/cuoi-2.jpeg",
-    title: "Cưới thui",
-  },
-  {
-    img: "/cuoi-3.jpeg",
-    title: "Cưới thui",
+    img: "/anh-cuoi/10.jpg",
+    title: "anh cuoi Thang & Ngoc",
   },
 ];

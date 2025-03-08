@@ -13,7 +13,7 @@ export default function FirstSection() {
   return (
     <Grid2 container spacing={4}>
       <ImageWrapper size={{ xs: 12, md: 4 }}>
-        <Image src="/cuoi-1.jpeg" alt="couple-image" />
+        <Image src="/anh-cuoi/0 (2).jpg" alt="couple-image" />
         <LeftFlowerImage
           src="/blue-flower-with-leaf.png"
           alt="blue-flower-with-leaf"
@@ -31,12 +31,12 @@ export default function FirstSection() {
           </Box>
           <Box>
             <Typography variant="h6">
-              Ngày 22 tháng 03 năm 2025 | 12 giờ trưa
+              Ngày 22 tháng 03 năm 2025{" "}
+              <Typography variant="caption">
+                (Ngày 23 tháng 02 năm 2025 âm lịch)
+              </Typography>
             </Typography>
-            <Typography variant="caption" display="block" mb={1}>
-              (Ngày 23 tháng 02 năm 2025 âm lịch)
-            </Typography>
-            <MapText variant="subtitle1">
+            <MapText variant="subtitle1" mb={2}>
               <a
                 rel="noopener"
                 target="_blank"
@@ -46,6 +46,13 @@ export default function FirstSection() {
                 <OpenInNew fontSize="small" />
               </a>
             </MapText>
+            <Typography variant="h6">
+              Ngày 23 tháng 03 năm 2025{" "}
+              <Typography variant="caption">
+                (Ngày 24 tháng 02 năm 2025 âm lịch)
+              </Typography>
+            </Typography>
+
             <MapText variant="subtitle1">
               <a
                 rel="noopener"
