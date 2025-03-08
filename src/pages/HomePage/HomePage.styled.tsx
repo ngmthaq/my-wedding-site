@@ -5,7 +5,11 @@ export const WebContainer = styled(Container)(({ theme }) => ({
   marginBottom: theme.spacing(12),
 }));
 
-export const PinImage = styled("img")(() => ({
+export const PinImage = styled("img")(({ theme }) => ({
   width: 400,
   height: "auto",
+
+  [theme.breakpoints.down("sm")]: {
+    width: "90%",
+  },
 }));

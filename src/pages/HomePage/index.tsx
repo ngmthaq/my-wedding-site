@@ -12,7 +12,7 @@ export default function HomePage() {
   return (
     <Box>
       <Box display="flex" alignItems="center" justifyContent="center">
-        <PinImage src="/header-1.jpg" alt="footer" />
+        <PinImage src="/header-1.jpg" alt="header" />
       </Box>
       <WebContainer maxWidth="lg">
         <FirstSection />

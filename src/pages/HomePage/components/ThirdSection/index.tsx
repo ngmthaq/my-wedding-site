@@ -12,7 +12,7 @@ export default function ThirdSection() {
       <Typography variant="h3" textAlign="center" mb={6}>
         Một hành trình
       </Typography>
-      <Masonry columns={3} spacing={2}>
+      <Masonry columns={{ xs: 1, sm: 2, md: 3 }} sx={{ margin: 0 }}>
         {itemData.map((item, index) => (
           <MasonryItem key={index} title={item.title}>
             <MasonryImage src={item.img} alt={item.title} loading="lazy" />

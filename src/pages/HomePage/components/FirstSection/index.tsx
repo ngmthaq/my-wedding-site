@@ -1,10 +1,12 @@
-import { Box, Grid2, Typography } from "@mui/material";
+import { Grid2, Typography } from "@mui/material";
 import { OpenInNew } from "@mui/icons-material";
 import {
+  AddressBox,
   Image,
   ImageWrapper,
   LeftFlowerImage,
   MapText,
+  NameBox,
   RightFlowerImage,
   TextWrapper,
 } from "./FirstSection.styled";
@@ -21,22 +23,25 @@ export default function FirstSection() {
       </ImageWrapper>
       <ImageWrapper size={{ xs: 12, md: 8 }}>
         <TextWrapper>
-          <Box>
+          <NameBox>
+            <Typography
+              variant="h2"
+              fontFamily="Lobster"
+              color="error"
+              fontStyle="italic"
+              mb={4}
+            >
+              Lễ Vu Quy
+            </Typography>
             <Typography variant="h1" fontFamily="Lobster" fontStyle="italic">
               Mạnh Thắng
             </Typography>
             <Typography variant="h1" fontFamily="Lobster" fontStyle="italic">
-              & Hồng Ngọc
+              Hồng Ngọc
             </Typography>
-          </Box>
-          <Box>
-            <Typography variant="h6">
-              Ngày 22 tháng 03 năm 2025{" "}
-              <Typography variant="caption">
-                (Ngày 23 tháng 02 năm 2025 âm lịch)
-              </Typography>
-            </Typography>
-            <MapText variant="subtitle1" mb={2}>
+          </NameBox>
+          <AddressBox>
+            <MapText variant="subtitle1">
               <a
                 rel="noopener"
                 target="_blank"
@@ -46,13 +51,6 @@ export default function FirstSection() {
                 <OpenInNew fontSize="small" />
               </a>
             </MapText>
-            <Typography variant="h6">
-              Ngày 23 tháng 03 năm 2025{" "}
-              <Typography variant="caption">
-                (Ngày 24 tháng 02 năm 2025 âm lịch)
-              </Typography>
-            </Typography>
-
             <MapText variant="subtitle1">
               <a
                 rel="noopener"
@@ -63,7 +61,7 @@ export default function FirstSection() {
                 <OpenInNew fontSize="small" />
               </a>
             </MapText>
-          </Box>
+          </AddressBox>
         </TextWrapper>
         <RightFlowerImage src="/pink-flower.png" alt="pink-flower" />
       </ImageWrapper>

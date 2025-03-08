@@ -10,12 +10,12 @@ import "@fontsource/lobster/400.css";
 
 const element = document.getElementById("root")!;
 const root = createRoot(element);
-const theme = createTheme({ colorSchemes: { dark: true }, cssVariables: true });
+const theme = createTheme({ cssVariables: true });
 
 root.render(
   <BrowserRouter>
     <ThemeProvider
-      defaultMode="system"
+      defaultMode="light"
       noSsr={true}
       disableTransitionOnChange={true}
       theme={theme}
