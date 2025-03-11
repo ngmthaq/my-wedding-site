@@ -15,7 +15,7 @@ export default function ThirdSection() {
       <Masonry columns={{ xs: 1, sm: 2, md: 3 }} sx={{ margin: 0 }}>
         {itemData.map((item, index) => (
           <MasonryItem key={index} title={item.title}>
-            <MasonryImage src={item.img} alt={item.title} loading="lazy" />
+            <MasonryImage src={item.img} alt={item.title} />
           </MasonryItem>
         ))}
       </Masonry>
