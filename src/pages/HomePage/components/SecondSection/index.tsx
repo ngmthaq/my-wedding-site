@@ -35,7 +35,7 @@ export default function SecondSection() {
               <TimelineDot color="error" />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent>Lễ ăn hỏi tại nhà trai</TimelineContent>
+            <TimelineContent>Bắt đầu sang nhà gái ăn hỏi</TimelineContent>
           </TimelineItem>
           <TimelineItem>
             <TimelineOppositeContent color="text.secondary">

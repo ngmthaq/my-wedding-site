@@ -15,7 +15,7 @@ export default function FirstSection() {
   return (
     <Grid2 container spacing={4}>
       <ImageWrapper size={{ xs: 12, md: 4 }}>
-        <Image src="/anh-cuoi/0 (2).jpg" alt="couple-image" />
+        <Image src="/anh-cuoi-1/0 (2).jpg" alt="couple-image" />
         <LeftFlowerImage
           src="/blue-flower-with-leaf.png"
           alt="blue-flower-with-leaf"

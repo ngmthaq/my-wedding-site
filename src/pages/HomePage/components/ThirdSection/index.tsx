@@ -25,75 +25,75 @@ export default function ThirdSection() {
 
 const itemData = [
   {
-    img: "/anh-cuoi/0 (1).jpg",
+    img: "/anh-cuoi-1/0 (1).jpg",
     title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/anh-cuoi/0 (3).jpg",
+    img: "/anh-cuoi-1/0 (3).jpg",
     title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/anh-cuoi/0 (4).jpg",
+    img: "/anh-cuoi-1/0 (4).jpg",
     title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/anh-cuoi/0 (5).jpg",
+    img: "/anh-cuoi-1/0 (5).jpg",
     title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/anh-cuoi/0 (6).jpg",
+    img: "/anh-cuoi-1/0 (6).jpg",
     title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/anh-cuoi/0 (7).jpg",
+    img: "/anh-cuoi-1/0 (7).jpg",
     title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/anh-cuoi/0 (8).jpg",
+    img: "/anh-cuoi-1/0 (8).jpg",
     title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/anh-cuoi/2 (1).jpg",
+    img: "/anh-cuoi-1/2 (1).jpg",
     title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/anh-cuoi/2 (2).jpg",
+    img: "/anh-cuoi-1/2 (2).jpg",
     title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/anh-cuoi/2 (3).jpg",
+    img: "/anh-cuoi-1/2 (3).jpg",
     title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/anh-cuoi/2 (4).jpg",
+    img: "/anh-cuoi-1/2 (4).jpg",
     title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/anh-cuoi/5 (1).jpg",
+    img: "/anh-cuoi-1/5 (1).jpg",
     title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/anh-cuoi/5 (2).jpg",
+    img: "/anh-cuoi-1/5 (2).jpg",
     title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/anh-cuoi/5 (3).jpg",
+    img: "/anh-cuoi-1/5 (3).jpg",
     title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/anh-cuoi/5.jpg",
+    img: "/anh-cuoi-1/5.jpg",
     title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/anh-cuoi/6.jpg",
+    img: "/anh-cuoi-1/6.jpg",
     title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/anh-cuoi/8.jpg",
+    img: "/anh-cuoi-1/8.jpg",
     title: "anh cuoi Thang & Ngoc",
   },
   {
-    img: "/anh-cuoi/10.jpg",
+    img: "/anh-cuoi-1/10.jpg",
     title: "anh cuoi Thang & Ngoc",
   },
 ];
